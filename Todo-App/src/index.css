@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+
+.todo h1 {
+    font-size: 35px;
+    color: #2c3e50;
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(87, 87, 87, 0.308);
+    width: 100%;
+    text-align: center;
+}
+
+.todo p {
+    color: #2c3e50d0;
+    font-size: 17px;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper button {
+    background-color: #004c97;
+    fill: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.input-wrapper input {
+    width: 100%;
+    margin-right: 15px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(87, 87, 87, 0.308);
+    outline: none;
+    color: #2c3e50;
+}
+
+ul {
+    width: 100%;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 20px;
+    border: 2px solid #004c97;
+    border-radius: 20px;
+    color: #004c97;
+    margin: 15px 0;
+}
+
+.btns .editBtn {
+    background-color: #004c97;
+    fill: white;
+    font-size: 15px;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.btns .deleteBtn {
+    background-color: rgb(199, 21, 21);
+    fill: white;
+    font-size: 15px;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
